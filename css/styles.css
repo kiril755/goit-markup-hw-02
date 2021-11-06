@@ -98,6 +98,53 @@ body {
   background-color: var(--second-bgc-color);
 }
 
-.advantage-list {
+.advantage-title {
   color: var(--main-title-color);
+}
+
+/*----------------------ABOUT--------------------*/
+
+.about {
+  background-color: var(--second-bgc-color);
+}
+
+.about-title {
+  color: var(--main-title-color);
+}
+
+/*------------------TEAM--------------------------*/
+
+.team {
+  background-color: var(--third-bgc-color);
+}
+
+.team-title {
+  color: var(--main-title-color);
+}
+
+.team-list-title {
+  color: var(--main-title-color);
+}
+
+/*--------------------FOOTER-----------------------*/
+
+.footer {
+  background-color: var(--unic-bgc-color);
+}
+
+.footer-logo {
+  color: #ffffff;
+}
+
+.footer-logo span {
+  color: var(--accent-color);
+}
+
+.adress-link {
+  color: #ffffff;
+}
+
+.footer-mail,
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
 }
