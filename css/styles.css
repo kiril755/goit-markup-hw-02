@@ -16,8 +16,7 @@ body {
   color: #757575;
 }
 
-/*основной цвет текста  (абзацы) #757575;
- */
+/*основной цвет текста  (абзацы) #757575*/
 /*вторичный цвет текста  (заголовки) #212121 */
 /*белый #FFFFFF */
 /*акцент (ховер) #2196F3 */
@@ -50,4 +49,55 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+/*-----------------HEADER------------------*/
+.header-logo {
+  color: var(--main-title-color: #212121);
+}
+
+.header-logo span {
+  color: var(--accent-color);
+}
+
+.header-item {
+  color: var(--main-title-color);
+}
+
+.header-item:hover,
+.header-item:focus {
+  color: var(--accent-color);
+}
+
+.header-contacts a {
+  color: var(--main-text-color);
+}
+
+.header-contacts a:hover,
+.header-contacts a:focus {
+  color: var(--accent-color);
+}
+
+/*----------------HERO------------------*/
+
+.hero {
+  background-color: var(--unic-bgc-color);
+}
+
+.hero-title {
+  color: var(--second-title-color);
+}
+
+.hero-button {
+  color: var(--second-bgc-color);
+  background-color: var(--second-btn-color);
+}
+
+/*-----------------ADVANTAGE--------------------*/
+
+.advantage {
+  background-color: var(--second-bgc-color);
+}
+
+.advantage-list {
+  color: var(--main-title-color);
 }
