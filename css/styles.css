@@ -54,7 +54,7 @@ body {
 }
 /*-----------------HEADER------------------*/
 .header-logo {
-  color: var(--main-title-color: #212121);
+  color: var(--main-title-color);
 }
 
 .header-logo span {
