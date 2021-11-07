@@ -3,8 +3,10 @@
   --main-title-color: #212121;
   --second-title-color: #ffffff;
   --accent-color: #2196f3;
-  --main-btn-color: #f5f4fa;
-  --second-btn-color: #2196f3;
+  --main-btn-color: #212121;
+  --second-btn-color: #ffffff;
+  --main-btn-bgc-color: #f5f4fa;
+  --second-btn-bgc-color: #2196f3;
   --main-bgc-color: #ffffff;
   --second-bgc-color: #e5e5e5;
   --third-bgc-color: #f5f4fa;
@@ -88,8 +90,8 @@ body {
 }
 
 .hero-button {
-  color: var(--second-bgc-color);
-  background-color: var(--second-btn-color);
+  color: var(--second-btn-color);
+  background-color: var(--second-btn-bgc-color);
 }
 
 /*-----------------ADVANTAGE--------------------*/
@@ -147,4 +149,38 @@ body {
 .footer-mail,
 .footer-tel {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/*-------------------PORTFOLIO---------------*/
+.main-portfolio {
+  background-color: var(--second-bgc-color);
+}
+
+/*----------------------FILTERS--------------- */
+
+.button {
+  color: var(--main-btn-color);
+  background-color: var(--main-btn-bgc-color);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--second-btn-color);
+  background-color: var(--second-btn-bgc-color);
+}
+
+/*--------------------PROJECTS------------------------*/
+
+/*--------------------PROJECTS------------------------*/
+
+.project-item {
+  color: var(--main-bgc-color);
+}
+
+.project-title {
+  color: var(--main-title-color);
+}
+
+.project-text {
+  color: var(--main-text-color);
 }
